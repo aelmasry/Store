@@ -10,7 +10,7 @@ class Cart_model extends My_Model {
     }
 
     public function delete_records_from_cart($email){
-		$this->db->delete($this->name array('user' => $email));  
+		$this->db->delete($this->name,array('user' => $email));  
     }
 
 }

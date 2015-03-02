@@ -49,7 +49,7 @@ class Order extends CI_Controller {
 			$value->user_data = $this->users_model->get_record(array('id' => $value->user))->email;
 			$value->product_data = $this->products_model->get_record(array('id' => $value->product))->name;
 		}
-		$this->load->admin_view('order',$dat);
+		$this->load->admin_view('order',$data);
 		
 	}
 
