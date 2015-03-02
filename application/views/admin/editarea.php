@@ -18,19 +18,19 @@
 	 <div id="map-canvas" style="width: 750px;height: 200px;margin-top: 20px;float: left;"></div>
 </div>
 <script src="http://maps.googleapis.com/maps/api/js"></script>
-<script src="<?=base_url('assets/js/jquery-2.1.1.min.js')?>"></script>
-<script type="text/javascript">
+<script src="<?=base_url('assets/js/jquery-2.1.1.min.js')??>"></script>
+<script typ="text/javascript">
 var lat = <?php echo json_encode($records->lat);?>;
 var lng = <?php echo json_encode($records->lng);?>;
 var zoom = parseInt(<?php echo json_encode($records->zoom);?>);
 var geocoder;
 var map;
 var marker;
+    zoom: zoom,
 function initialize() {
   geocoder = new google.maps.Geocoder();
   var latlng = new google.maps.LatLng(lat, lng);
   var mapOptions = {
-    zoom: zoom,
     center: latlng
   }
   map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
