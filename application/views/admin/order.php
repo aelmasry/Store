@@ -1,7 +1,7 @@
     <div class="col-md-9">
       <div class="pull-right">
       </div>
-      <table class="table table-bordered table-responsive product_table" style="margin-top: 40px;">
+      <table class="table table-bordered table-responsive product_table">
         <thead>
           <th>ID</th>
           <th>User</th>

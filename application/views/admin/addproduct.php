@@ -1,4 +1,4 @@
-<div class="col-md-9" style="margin-top: 23px !important;">
+<div class="col-md-9 add_div" >
     <h4 class="sub-header">Add Product</h4>
     <form role="form" action="<?=base_url('admin/products/add_edit/')?>" class="add_form" method="POST" enctype="multipart/form-data">
         <div class="form-group">
