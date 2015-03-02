@@ -1,0 +1,143 @@
+.navbar-collapse.collapse {
+  	text-align: center; /* Set this */
+  	display: block !important;
+  	height: auto !important;
+  	padding-bottom: 0;
+  	overflow: visible !important;
+}
+.navbar-nav {
+  	display: inline-block;
+  	float: none;
+  	margin: 0;
+}
+h2{
+  	margin: 0;     
+  	color: #666;
+  	padding-top: 90px;
+  	font-size: 52px;
+  	font-family: "trebuchet ms", sans-serif;    
+}
+.item{
+    background: #333;    
+    text-align: center;
+    height: 300px !important;
+}
+
+.bs-example{
+	margin: 20px;
+}
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.form-signin {
+  max-width: 350px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.error{
+  color:red;
+}
+.carousel .item {
+    width: 100%; /*slider width*/
+    max-height: 600px; /*slider height*/
+}
+.carousel .item img {
+    width: 100%; /*img width*/
+}
+/*add some makeup*/
+.carousel .carousel-control {
+    background: none;
+    border: none;
+    top: 50%;
+}
+/*full width container*/
+@media (max-width: 767px) {
+    .block {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
+.add_form{
+  background-color:#F0F8FF;
+}
+.product_table{
+  background-color:#D1ECE3;
+}
+.product_img{
+  width:200px;height:200px;
+}
+.img_div{
+  margin-bottom: 20px;
+}
+.form_buttons div{
+  margin-bottom: 8px !important;
+}
+.form_reg_login {
+  background-image: url('../images/background.jpg');
+}
+.form-signin-heading{
+  margin-bottom: 20px !important;
+  color: darkslategrey !important;
+}
+
+.form_buttons div input,a{
+ /* background: darkslategrey !important;
+  border: 0 !important;
+  margin-top: 10px !important;*/
+}
+.my_button{
+  background-color: rgb(145, 229, 180);
+  color:darkslategray;
+  border: 0 !important;
+  margin-left: 50px;
+  margin-top: 8px;
+  transition: 1s;
+}
+.product_desc{
+  margin-left: 20%;
+  margin-top: 8px;
+}
+.paypal{
+  width: 200px;
+}
+.log_in_out{
+position: absolute;
+left: 1100px;
+top: 10px;
+
+}
+td {
+    word-wrap:break-word !important;
+}
+table {
+    table-layout:fixed !important;
+    width:100% !important;
+}
+ul li {
+    word-break: break-all !important;
+}
+.cart-number {
+min-width: 25px;
+height: 16px;
+line-height: 16px;
+text-align: center;
+border-radius: 8px;
+background-color: #4191B9;
+color: #fff;
+font-size: 12px;
+position: absolute;
+top: 2px;
+left: 43px;
+padding: 0 2px;
+}
+.modal_login{
+margin-bottom: 10px;
+}
+.social_div{
+position: absolute;
+right: 70px;
+top: 350px;
+}
