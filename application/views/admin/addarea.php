@@ -63,7 +63,7 @@ function placeMarker(location) {
 }
 function codeAddress() {
   if(marker != null){
-            marker.setMap(null);
+      marker.setMap(null);
   }
 
   var address = document.getElementById('address').value;
@@ -87,7 +87,7 @@ function codeAddress() {
 
   infowindow.open(map,marker);
     } else {
-      alert('Geocode was not successful for the following reason: ' + status);
+        alert('Geocode was not successful for the following reason: ' + status);
     }
   });
 
