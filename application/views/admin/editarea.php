@@ -30,7 +30,7 @@ var marker;
 function initialize() {
   geocoder = new google.maps.Geocoder();
   var latlng = new google.maps.LatLng(lat, lng);
-  var mapOptions = {
+  var mapOptions == {
     center: latlng
   }
   map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
