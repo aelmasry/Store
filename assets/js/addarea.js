@@ -16,7 +16,7 @@ function initialize() {
   google.maps.event.addListener(map, 'click', function(event) {
     placeMarker(event.latLng);
   });
-
+ console.log("55555");
   
 }
 
