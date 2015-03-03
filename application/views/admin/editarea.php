@@ -24,4 +24,4 @@
 var lat = <?php echo json_encode($records->lat);?>;
 var lng = <?php echo json_encode($records->lng);?>;
 var zoom = parseInt(<?php echo json_encode($records->zoom);?>);
-</script>
+</script> 
