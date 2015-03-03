@@ -5,9 +5,8 @@ class Areas extends CI_Controller {
 		parent::__construct();
 		$this->load->model('products_model');
 		$this->load->model('areas_model');
-		$this->load->model('lat_lng_model');
 		$this->load->helper(array('form', 'url'));
-		$this->load->library('form_validation');
+		$this->load->library('form_validation'); 
 		if(!$this->session->userdata('isLogged') && $this->session->userdata('role') != 1){
 			redirect('auth/index');
 		}
