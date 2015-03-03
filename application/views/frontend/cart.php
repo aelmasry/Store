@@ -4,11 +4,11 @@
 		<div class="col-md-10">
 		<?php foreach ($records as  $value): ?>
 			<div class="col-md-3 pull-left thumbnail">
-				<a href="<?=base_url("frontend/products/details/$value->id")?>" ><img src="<?=base_url("assets/images/$value->image")?>" style="width:200px;height:200px;"></a>
+				<a href="<?=base_url("frontend/products/details/$value->id")?>" ><img src="<?=base_url("assets/images/$value->image")?>" class="cart_img_id"></a>
 				<a class="btn btn-success my_button"  href="<?=base_url("frontend/products/details/$value->id")?>">View details</a>
 				<a class="btn btn-success my_button"  href="<?=base_url("frontend/cart/delete/$value->cart_id")?>">Delete from cart</a>
-				<input class="btn btn-success my_button count" name="<?=$value->cart_id?>" value="<?=$value->count?>" style="width:100px;">
-				<a href="<?=base_url("frontend/products/details/$value->id")?>" style="text-decoration: none;"><p class="product_desc"><?=$value->name?></p></a>
+				<input class="btn btn-success my_button count input_cart" name="<?=$value->cart_id?>" value="<?=$value->count?>" >
+				<a href="<?=base_url("frontend/products/details/$value->id")?>" class="a_dec"><p class="product_desc"><?=$value->name?></p></a>
 			</div>
 		<?php endforeach ?>
 		</div>

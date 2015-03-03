@@ -65,6 +65,7 @@ body {
 }
 .product_table{
   background-color:#D1ECE3;
+  margin-top: 40px;
 }
 .product_img{
   width:200px;height:200px;
@@ -140,4 +141,43 @@ margin-bottom: 10px;
 position: absolute;
 right: 70px;
 top: 350px;
+}
+#map-canvas{
+  width:800px;
+  height:200px;
+}
+.add_div{
+  margin-top: 23px !important;
+}
+.a_dec{
+  text-decoration: none;
+}
+.input_cart{
+  width:100px;
+}
+.cart_img_id{
+  width:200px;
+  height:200px;
+}
+.slider_img{
+  width:1400px;
+  height:300px;
+}
+#index_row{
+  margin-bottom: 40px;
+}
+#margin_button{
+  margin-left:0px;
+}
+#index_img{
+  width:200px;
+  height:200px;
+}
+.submit_button{
+  background-color: #DFF0C8;
+  border-color: #DFF0C8;
+}
+#paypal_img{
+  position: relative; 
+  top: 4px;
 }

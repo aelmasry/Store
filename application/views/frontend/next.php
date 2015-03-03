@@ -49,7 +49,7 @@
       <label>Total Amount</label>
       <p class="total"><?=$total?> $</p>
     </div>
-    <button type="submit" class="btn-info" style="background-color: #DFF0C8;border-color: #DFF0C8;"><img class="paypal" style="position: relative; top: 4px;" src="<?=base_url("assets/images/paypal.gif")?>"></button>
+    <button type="submit" class="btn-info submit_button" ><img class="paypal" id="paypal_img"  src="<?=base_url("assets/images/paypal.gif")?>"></button>
   </div>
   </div>
 </form>
